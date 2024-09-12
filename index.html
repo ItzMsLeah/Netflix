@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Entrar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="login-container">
+            <img src="netflix-logo.png" alt="Netflix Logo" class="logo">
+            <form id="login-form" action="#" method="post">
+                <h1>Entrar</h1>
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Email ou número de celular" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" placeholder="Senha" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+                <div class="options">
+                    <label><input type="checkbox" checked> Lembre-se de mim</label>
+                    <a href="#" class="help-link">Esqueceu a senha?</a>
+                </div>
+                <div class="or-divider">OU</div>
+                <button class="btn btn-secondary">Usar um código de acesso</button>
+            </form>
+            <div class="signup">
+                <p>Novo por aqui? <a href="#">Assine agora.</a></p>
+                <p class="recaptcha">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
